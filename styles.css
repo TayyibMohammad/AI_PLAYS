@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:cornflowerblue;
+}
+
+.coloumn{
+    width: 0.1vw;
+    border:1px solid black;
+}
+
+
+
+.upper-coloumn{
+    margin-bottom: 8vh;
+}
+
+#pointer{
+    width:1.5vh;
+    height: 1.5vh;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    
+    
+}
+
+#gameInterface{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(198, 194, 194);
+    width: fit-content;
+    padding: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5vw;
+    /* margin-left: auto;
+    margin-right: auto */
+}
+
+#gameControl{
+    background-color: aliceblue;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#user-score{
+    background-color: aliceblue;
+    color: green;
+}
+
+
+#header{
+    background-color: aquamarine;
+    padding: 2vh;
+    margin: 0;
+    color: royalblue;
+
+}
+
+
+.AI{
+    background-color: royalblue;
+    width: 8vw;
+    border: 1px dotted black;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-top: 2vh;
+}
+
+.USER{
+    background-color: green;
+    width: 8vw;
+    border: 1px dotted black;
+    color: white;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-top: 2vh;
+}
+
+.AI:hover{
+    cursor: pointer;
+}
+
+.USER:hover{
+    cursor: pointer;
+}
+
+#ai-score{
+    color: royalblue;
+}
+
+#iter{
+    color: royalblue;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    .upper-coloumn{
+        margin-bottom: 5vh;
+    }
+
+    #pointer{
+        width: 1vh;
+        height: 1vh;
+    }
+
+    .AI{
+        font-size: xx-small;
+        width: 15vw;
+
+    }
+
+    .USER{
+        font-size: xx-small;
+        width: 15vw;
+    }
+
+    #gameControl{
+        background-color: aliceblue;
+        width: fit-content;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 3vh;
+    }
+
+
+}
